@@ -1,5 +1,8 @@
 # 10-node Tetrahedron Example
 
+![image](https://user-images.githubusercontent.com/111939223/186578661-80db98e0-23ed-41cd-b7c1-b28fb156239f.png)
+
+
 Note that you should only run "main.py", this code will go through the following codes (in the same order they'll be mentioned):
 
 	1. accessMesh.py
