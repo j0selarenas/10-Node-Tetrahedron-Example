@@ -1,3 +1,5 @@
+# 10-node Tetrahedron Example
+
 Note that you should only run "main.py", this code will go through
 the following codes (in the same order they'll be mentioned):
 
