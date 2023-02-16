@@ -125,7 +125,7 @@ def Tet10(xyz, properties, ue=None):
 			# ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 			# The determinant of the Jacobian matrix is the volume of the tetrahedron. Check Equation 17.14 (AFEM).
-			det_J = det(J) * (1/6)
+			det_J = det(J)
 
 			# If the determinant is less or equal to zero, the node numbering is wrong.
 			assert det_J > 0, "The node numbering is wrong! Mapping is not invertible!"
@@ -269,7 +269,7 @@ def Tet10(xyz, properties, ue=None):
 			# ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 			# The determinant of the Jacobian matrix is the volume of the tetrahedron. Check Equation 17.14 (AFEM).
-			det_J = det(J) * (1/6)
+			det_J = det(J)
 
 			# If the determinant is less or equal to zero, the node numbering is wrong.
 			assert det_J > 0, "The node numbering is wrong! Mapping is not invertible!"
